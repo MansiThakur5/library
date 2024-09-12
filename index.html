@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Book Collection MT</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>Library Book Collection MT</h1>
+        <nav>
+            <ul>
+                <li><a href="#" id="genreLink">By Genre</a></li>
+                <li><a href="#" id="authorLink">By Author</a></li>
+                <li><a href="#" id="dateLink">By Publication Date</a></li>
+                <a href="https://your-site-name.netlify.app" target="_blank">Visit My Library Book Collection</a>
+
+            </ul>
+            <div id="cartIcon">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkq9SFLWdedMmkbe9ADRsjKdMdTj8PcVGpSw&s" alt="Cart" id="cartImage">
+                <span id="cartCount">0</span>
+            </div>
+        </nav>
+    </header>
+
+    <section id="bookList"></section>
+
+    <!-- Cart Modal -->
+    <div id="cartModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Your Cart</h2>
+            <div id="cartItems"></div>
+            <p>Total Price: $<span id="totalPrice">0</span></p>
+            <p id="deliveryCharge"></p>
+            <p id="deliveryTiming"></p>
+            <label for="deliveryAddress">Delivery Address:</label>
+            <input type="text" id="deliveryAddress" placeholder="Enter your address">
+            <button id="codButton">Cash on Delivery</button>
+            <button id="buyNowButton">Buy Now</button>
+        </div>
+    </div>
+    <!-- Footer -->
+<footer>
+    <div class="footer-content">
+        <h3>Connect with Me</h3>
+        <p>
+            <a href="https://www.linkedin.com/in/mansi-thakur-673779289" target="_blank">LinkedIn</a> |
+            <a href="https://github.com/MansiThakur5" target="_blank">GitHub</a> |
+            <a href="https://www.instagram.com/mansi__thakurrr18/?next=%2F#" target="_blank">Instagram</a> |
+            <a href="mansithakur18072005@gmail.com">Email</a> |
+            Phone: 91+ 9805896584
+        </p>
+    </div>
+</footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
